@@ -1,6 +1,6 @@
 /** Amaze UI Touch v1.0.0 | by Amaze UI Team
-  * (c) 2016 AllMobilize, Inc., Licensed under MIT
-  * 2016-08-18T15:15:02+0800
+  * (c) 2017 AllMobilize, Inc., Licensed under MIT
+  * 2017-02-01T22:09:46+1100
   */
   (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
@@ -89,103 +89,103 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _Col3 = _interopRequireDefault(_Col2);
 
-	var _Group2 = __webpack_require__(18);
+	var _Group2 = __webpack_require__(19);
 
 	var _Group3 = _interopRequireDefault(_Group2);
 
-	var _Accordion2 = __webpack_require__(19);
+	var _Accordion2 = __webpack_require__(20);
 
 	var _Accordion3 = _interopRequireDefault(_Accordion2);
 
-	var _Badge2 = __webpack_require__(21);
+	var _Badge2 = __webpack_require__(22);
 
 	var _Badge3 = _interopRequireDefault(_Badge2);
 
-	var _Button2 = __webpack_require__(22);
+	var _Button2 = __webpack_require__(23);
 
 	var _Button3 = _interopRequireDefault(_Button2);
 
-	var _ButtonGroup2 = __webpack_require__(23);
+	var _ButtonGroup2 = __webpack_require__(24);
 
 	var _ButtonGroup3 = _interopRequireDefault(_ButtonGroup2);
 
-	var _ButtonToolbar2 = __webpack_require__(24);
+	var _ButtonToolbar2 = __webpack_require__(25);
 
 	var _ButtonToolbar3 = _interopRequireDefault(_ButtonToolbar2);
 
-	var _Card2 = __webpack_require__(25);
+	var _Card2 = __webpack_require__(26);
 
 	var _Card3 = _interopRequireDefault(_Card2);
 
-	var _Icon2 = __webpack_require__(20);
+	var _Icon2 = __webpack_require__(21);
 
 	var _Icon3 = _interopRequireDefault(_Icon2);
 
-	var _Field2 = __webpack_require__(26);
+	var _Field2 = __webpack_require__(27);
 
 	var _Field3 = _interopRequireDefault(_Field2);
 
-	var _List2 = __webpack_require__(27);
+	var _List2 = __webpack_require__(28);
 
 	var _List3 = _interopRequireDefault(_List2);
 
-	var _Loader2 = __webpack_require__(28);
+	var _Loader2 = __webpack_require__(29);
 
 	var _Loader3 = _interopRequireDefault(_Loader2);
 
-	var _Modal2 = __webpack_require__(29);
+	var _Modal2 = __webpack_require__(30);
 
 	var _Modal3 = _interopRequireDefault(_Modal2);
 
-	var _NavBar2 = __webpack_require__(33);
+	var _NavBar2 = __webpack_require__(34);
 
 	var _NavBar3 = _interopRequireDefault(_NavBar2);
 
-	var _Notification2 = __webpack_require__(34);
+	var _Notification2 = __webpack_require__(35);
 
 	var _Notification3 = _interopRequireDefault(_Notification2);
 
-	var _OffCanvas2 = __webpack_require__(35);
+	var _OffCanvas2 = __webpack_require__(36);
 
 	var _OffCanvas3 = _interopRequireDefault(_OffCanvas2);
 
-	var _OffCanvasTrigger2 = __webpack_require__(36);
+	var _OffCanvasTrigger2 = __webpack_require__(37);
 
 	var _OffCanvasTrigger3 = _interopRequireDefault(_OffCanvasTrigger2);
 
-	var _Popover2 = __webpack_require__(38);
+	var _Popover2 = __webpack_require__(39);
 
 	var _Popover3 = _interopRequireDefault(_Popover2);
 
-	var _PopoverTrigger2 = __webpack_require__(39);
+	var _PopoverTrigger2 = __webpack_require__(40);
 
 	var _PopoverTrigger3 = _interopRequireDefault(_PopoverTrigger2);
 
-	var _Slider2 = __webpack_require__(41);
+	var _Slider2 = __webpack_require__(42);
 
 	var _Slider3 = _interopRequireDefault(_Slider2);
 
-	var _Switch2 = __webpack_require__(45);
+	var _Switch2 = __webpack_require__(46);
 
 	var _Switch3 = _interopRequireDefault(_Switch2);
 
-	var _TabBar2 = __webpack_require__(46);
+	var _TabBar2 = __webpack_require__(47);
 
 	var _TabBar3 = _interopRequireDefault(_TabBar2);
 
-	var _Tabs2 = __webpack_require__(47);
+	var _Tabs2 = __webpack_require__(48);
 
 	var _Tabs3 = _interopRequireDefault(_Tabs2);
 
-	var _Touchable2 = __webpack_require__(42);
+	var _Touchable2 = __webpack_require__(43);
 
 	var _Touchable3 = _interopRequireDefault(_Touchable2);
 
-	var _View2 = __webpack_require__(48);
+	var _View2 = __webpack_require__(49);
 
 	var _View3 = _interopRequireDefault(_View2);
 
-	var _fallback2 = __webpack_require__(49);
+	var _fallback2 = __webpack_require__(50);
 
 	var _fallback3 = _interopRequireDefault(_fallback2);
 
@@ -399,16 +399,16 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  getClassSet: function getClassSet(ignorePrefix) {
 	    var classNames = {};
-	    var _props = this.props;
-	    var amSize = _props.amSize;
-	    var amStyle = _props.amStyle;
-	    var hollow = _props.hollow;
-	    var radius = _props.radius;
-	    var rounded = _props.rounded;
-	    var active = _props.active;
-	    var selected = _props.selected;
-	    var disabled = _props.disabled;
-	    var inset = _props.inset;
+	    var _props = this.props,
+	        amSize = _props.amSize,
+	        amStyle = _props.amStyle,
+	        hollow = _props.hollow,
+	        radius = _props.radius,
+	        rounded = _props.rounded,
+	        active = _props.active,
+	        selected = _props.selected,
+	        disabled = _props.disabled,
+	        inset = _props.inset;
 
 	    // uses `.am-` as prefix if `classPrefix` is not defined
 
@@ -1117,10 +1117,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this.processEvent(e);
 
 	    var endTouch = e.touches[0];
-	    var _state = this.state;
-	    var touch = _state.touch;
-	    var deltaX = _state.deltaX;
-	    var deltaY = _state.deltaY;
+	    var _state = this.state,
+	        touch = _state.touch,
+	        deltaX = _state.deltaX,
+	        deltaY = _state.deltaY;
 
 
 	    this._cancelPress();
@@ -1147,15 +1147,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    this._cancelPress();
 
-	    var _props = this.props;
-	    var tapDelay = _props.tapDelay;
-	    var moveThreshold = _props.moveThreshold;
-	    var _state2 = this.state;
-	    var touch = _state2.touch;
-	    var startTouch = _state2.startTouch;
-	    var endTouch = _state2.endTouch;
-	    var deltaX = _state2.deltaX;
-	    var deltaY = _state2.deltaY;
+	    var _props = this.props,
+	        tapDelay = _props.tapDelay,
+	        moveThreshold = _props.moveThreshold;
+	    var _state2 = this.state,
+	        touch = _state2.touch,
+	        startTouch = _state2.startTouch,
+	        endTouch = _state2.endTouch,
+	        deltaX = _state2.deltaX,
+	        deltaY = _state2.deltaY;
 
 	    var event = {
 	      touch: touch,
@@ -1254,11 +1254,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    this._resetTouch();
 	  },
 	  _getSwipeDirection: function _getSwipeDirection() {
-	    var _state$touch = this.state.touch;
-	    var x1 = _state$touch.x1;
-	    var x2 = _state$touch.x2;
-	    var y1 = _state$touch.y1;
-	    var y2 = _state$touch.y2;
+	    var _state$touch = this.state.touch,
+	        x1 = _state$touch.x1,
+	        x2 = _state$touch.x2,
+	        y1 = _state$touch.y1,
+	        y2 = _state$touch.y2;
 
 	    // 水平方向：水平距离大于等于垂直距离
 	    // 垂直方向：
@@ -1413,18 +1413,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	  render: function render() {
 	    var _cx;
 
-	    var _props = this.props;
-	    var className = _props.className;
-	    var Component = _props.component;
-	    var children = _props.children;
-	    var direction = _props.direction;
-	    var fill = _props.fill;
-	    var align = _props.align;
-	    var justify = _props.justify;
-	    var scrollable = _props.scrollable;
-	    var transition = _props.transition;
-
-	    var props = _objectWithoutProperties(_props, ['className', 'component', 'children', 'direction', 'fill', 'align', 'justify', 'scrollable', 'transition']);
+	    var _props = this.props,
+	        className = _props.className,
+	        Component = _props.component,
+	        children = _props.children,
+	        direction = _props.direction,
+	        fill = _props.fill,
+	        align = _props.align,
+	        justify = _props.justify,
+	        scrollable = _props.scrollable,
+	        transition = _props.transition,
+	        props = _objectWithoutProperties(_props, ['className', 'component', 'children', 'direction', 'fill', 'align', 'justify', 'scrollable', 'transition']);
 
 	    var classSet = this.getClassSet();
 
@@ -1547,16 +1546,16 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var collapse = _props.collapse;
-	    var bordered = _props.bordered;
-	    var avg = _props.avg;
-	    var align = _props.align;
-	    var wrap = _props.wrap;
 
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'collapse', 'bordered', 'avg', 'align', 'wrap']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        collapse = _props.collapse,
+	        bordered = _props.bordered,
+	        avg = _props.avg,
+	        align = _props.align,
+	        wrap = _props.wrap,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'collapse', 'bordered', 'avg', 'align', 'wrap']);
 
 	    delete props.classPrefix;
 
@@ -1610,6 +1609,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
+	var _InternalPropTypes = __webpack_require__(18);
+
 	var _ClassNameMixin = __webpack_require__(5);
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
@@ -1625,7 +1626,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  propTypes: {
 	    classPrefix: _react.PropTypes.string.isRequired,
-	    component: _react.PropTypes.node.isRequired,
+	    component: _InternalPropTypes.component.isRequired,
 	    cols: _react.PropTypes.number,
 	    offset: _react.PropTypes.number,
 	    shrink: _react.PropTypes.bool
@@ -1638,14 +1639,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var cols = _props.cols;
-	    var offset = _props.offset;
-	    var shrink = _props.shrink;
-	    var className = _props.className;
-
-	    var props = _objectWithoutProperties(_props, ['component', 'cols', 'offset', 'shrink', 'className']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        cols = _props.cols,
+	        offset = _props.offset,
+	        shrink = _props.shrink,
+	        className = _props.className,
+	        props = _objectWithoutProperties(_props, ['component', 'cols', 'offset', 'shrink', 'className']);
 
 	    var classSet = this.getClassSet();
 
@@ -1676,6 +1676,24 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ },
 /* 18 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.component = undefined;
+
+	var _react = __webpack_require__(3);
+
+	var func = _react.PropTypes.func,
+	    oneOfType = _react.PropTypes.oneOfType,
+	    string = _react.PropTypes.string;
+	var component = exports.component = oneOfType([func, string]);
+
+/***/ },
+/* 19 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1730,12 +1748,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }, this.props[role]) : null;
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var noPadded = _props.noPadded;
-
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'noPadded']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        noPadded = _props.noPadded,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'noPadded']);
 
 	    var classSet = this.getClassSet();
 
@@ -1767,7 +1784,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 19 */
+/* 20 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1794,7 +1811,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _CollapseMixin2 = _interopRequireDefault(_CollapseMixin);
 
-	var _Icon = __webpack_require__(20);
+	var _Icon = __webpack_require__(21);
 
 	var _Icon2 = _interopRequireDefault(_Icon);
 
@@ -1872,11 +1889,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var className = _props.className;
-	    var inset = _props.inset;
-
-	    var props = _objectWithoutProperties(_props, ['className', 'inset']);
+	    var _props = this.props,
+	        className = _props.className,
+	        inset = _props.inset,
+	        props = _objectWithoutProperties(_props, ['className', 'inset']);
 
 	    var classSet = this.getClassSet();
 
@@ -1978,7 +1994,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 20 */
+/* 21 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -1997,6 +2013,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
+	var _InternalPropTypes = __webpack_require__(18);
+
 	var _ClassNameMixin = __webpack_require__(5);
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
@@ -2012,7 +2030,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  propTypes: {
 	    classPrefix: _react.PropTypes.string.isRequired,
-	    component: _react.PropTypes.node.isRequired,
+	    component: _InternalPropTypes.component,
 	    name: _react.PropTypes.string.isRequired,
 	    href: _react.PropTypes.string
 	  },
@@ -2025,12 +2043,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var name = _props.name;
 
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'name']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        name = _props.name,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'name']);
 
 	    delete props.classPrefix;
 
@@ -2053,7 +2071,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 21 */
+/* 22 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2072,6 +2090,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
+	var _InternalPropTypes = __webpack_require__(18);
+
 	var _ClassNameMixin = __webpack_require__(5);
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
@@ -2087,7 +2107,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  propTypes: {
 	    classPrefix: _react.PropTypes.string.isRequired,
-	    component: _react.PropTypes.node.isRequired,
+	    component: _InternalPropTypes.component,
 	    href: _react.PropTypes.string,
 	    amStyle: _react.PropTypes.string,
 	    // radius: PropTypes.bool,
@@ -2102,12 +2122,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var href = _props.href;
 
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'href']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        href = _props.href,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'href']);
 
 	    delete props.classPrefix;
 	    delete props.amStyle;
@@ -2129,7 +2149,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 22 */
+/* 23 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2148,6 +2168,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _classnames2 = _interopRequireDefault(_classnames);
 
+	var _InternalPropTypes = __webpack_require__(18);
+
 	var _ClassNameMixin = __webpack_require__(5);
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
@@ -2163,7 +2185,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	  propTypes: {
 	    classPrefix: _react.PropTypes.string.isRequired,
-	    component: _react.PropTypes.node,
+	    component: _InternalPropTypes.component,
 	    href: _react.PropTypes.string,
 	    target: _react.PropTypes.string,
 	    amStyle: _react.PropTypes.string,
@@ -2190,12 +2212,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return props;
 	  },
 	  renderAnchor: function renderAnchor(classes) {
-	    var _props = this.props;
-	    var href = _props.href;
-	    var Component = _props.component;
-	    var children = _props.children;
-
-	    var props = _objectWithoutProperties(_props, ['href', 'component', 'children']);
+	    var _props = this.props,
+	        href = _props.href,
+	        Component = _props.component,
+	        children = _props.children,
+	        props = _objectWithoutProperties(_props, ['href', 'component', 'children']);
 
 	    Component = Component || 'a';
 
@@ -2212,11 +2233,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    );
 	  },
 	  renderButton: function renderButton(classes) {
-	    var _props2 = this.props;
-	    var Component = _props2.component;
-	    var children = _props2.children;
-
-	    var props = _objectWithoutProperties(_props2, ['component', 'children']);
+	    var _props2 = this.props,
+	        Component = _props2.component,
+	        children = _props2.children,
+	        props = _objectWithoutProperties(_props2, ['component', 'children']);
 
 	    Component = Component || 'button';
 
@@ -2230,11 +2250,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props3 = this.props;
-	    var href = _props3.href;
-	    var target = _props3.target;
-	    var block = _props3.block;
-	    var className = _props3.className;
+	    var _props3 = this.props,
+	        href = _props3.href,
+	        target = _props3.target,
+	        block = _props3.block,
+	        className = _props3.className;
 
 	    var renderType = href || target ? 'renderAnchor' : 'renderButton';
 
@@ -2249,7 +2269,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 23 */
+/* 24 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2297,15 +2317,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var amStyle = _props.amStyle;
-	    var amSize = _props.amSize;
-	    var hollow = _props.hollow;
-	    var stacked = _props.stacked;
-	    var justify = _props.justify;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'amStyle', 'amSize', 'hollow', 'stacked', 'justify']);
+	    var _props = this.props,
+	        className = _props.className,
+	        amStyle = _props.amStyle,
+	        amSize = _props.amSize,
+	        hollow = _props.hollow,
+	        stacked = _props.stacked,
+	        justify = _props.justify,
+	        props = _objectWithoutProperties(_props, ['className', 'amStyle', 'amSize', 'hollow', 'stacked', 'justify']);
 
 	    delete props.classPrefix;
 
@@ -2332,7 +2352,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 24 */
+/* 25 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2375,11 +2395,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var children = _props.children;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'children']);
+	    var _props = this.props,
+	        className = _props.className,
+	        children = _props.children,
+	        props = _objectWithoutProperties(_props, ['className', 'children']);
 
 	    delete props.classPrefix;
 
@@ -2397,7 +2417,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 25 */
+/* 26 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2463,14 +2483,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var children = _props.children;
-	    var className = _props.className;
-	    var title = _props.title;
-	    var header = _props.header;
-	    var footer = _props.footer;
 
-	    var props = _objectWithoutProperties(_props, ['children', 'className', 'title', 'header', 'footer']);
+	    var _props = this.props,
+	        children = _props.children,
+	        className = _props.className,
+	        title = _props.title,
+	        header = _props.header,
+	        footer = _props.footer,
+	        props = _objectWithoutProperties(_props, ['children', 'className', 'title', 'header', 'footer']);
 
 	    delete props.classPrefix;
 
@@ -2510,12 +2530,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  render: function render() {
 	    var _classSet;
 
-	    var _props2 = this.props;
-	    var role = _props2.role;
-	    var className = _props2.className;
-	    var cover = _props2.cover;
-
-	    var props = _objectWithoutProperties(_props2, ['role', 'className', 'cover']);
+	    var _props2 = this.props,
+	        role = _props2.role,
+	        className = _props2.className,
+	        cover = _props2.cover,
+	        props = _objectWithoutProperties(_props2, ['role', 'className', 'cover']);
 
 	    var classSet = (_classSet = {}, _defineProperty(_classSet, this.prefixClass(role), true), _defineProperty(_classSet, this.prefixClass('cover'), cover), _classSet);
 	    var style = null;
@@ -2546,7 +2565,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 26 */
+/* 27 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2569,11 +2588,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
 
-	var _Button = __webpack_require__(22);
+	var _Button = __webpack_require__(23);
 
 	var _Button2 = _interopRequireDefault(_Button);
 
-	var _Icon = __webpack_require__(20);
+	var _Icon = __webpack_require__(21);
 
 	var _Icon2 = _interopRequireDefault(_Icon);
 
@@ -2696,10 +2715,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	        break;
 	      case 'submit':
 	      case 'reset':
-	        var _props = this.props;
-	        var classPrefix = _props.classPrefix;
-
-	        var others = _objectWithoutProperties(_props, ['classPrefix']);
+	        var _props = this.props,
+	            classPrefix = _props.classPrefix,
+	            others = _objectWithoutProperties(_props, ['classPrefix']);
 
 	        field = _react2.default.createElement(_Button2.default, _extends({}, commonProps, {
 	          className: null
@@ -2714,10 +2732,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    return field;
 	  },
 	  renderContainer: function renderContainer(children) {
-	    var _props2 = this.props;
-	    var id = _props2.id;
-	    var label = _props2.label;
-	    var containerClassName = _props2.containerClassName;
+	    var _props2 = this.props,
+	        id = _props2.id,
+	        label = _props2.label,
+	        containerClassName = _props2.containerClassName;
 
 	    return label ? _react2.default.createElement(
 	      'label',
@@ -2743,12 +2761,12 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var groupPrefix = this.setClassNS('field-group');
 	    var labelClassName = groupPrefix + '-label';
-	    var _props3 = this.props;
-	    var labelBefore = _props3.labelBefore;
-	    var labelAfter = _props3.labelAfter;
-	    var btnBefore = _props3.btnBefore;
-	    var btnAfter = _props3.btnAfter;
-	    var containerClassName = _props3.containerClassName;
+	    var _props3 = this.props,
+	        labelBefore = _props3.labelBefore,
+	        labelAfter = _props3.labelAfter,
+	        btnBefore = _props3.btnBefore,
+	        btnAfter = _props3.btnAfter,
+	        containerClassName = _props3.containerClassName;
 
 	    var renderFiledLabel = function renderFiledLabel(type) {
 	      return _this2.props[type] ? _react2.default.createElement(
@@ -2789,7 +2807,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 27 */
+/* 28 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -2812,7 +2830,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
 
-	var _Icon = __webpack_require__(20);
+	var _Icon = __webpack_require__(21);
 
 	var _Icon2 = _interopRequireDefault(_Icon);
 
@@ -2837,11 +2855,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var inset = _props.inset;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'inset']);
+	    var _props = this.props,
+	        className = _props.className,
+	        inset = _props.inset,
+	        props = _objectWithoutProperties(_props, ['className', 'inset']);
 
 	    delete props.classPrefix;
 
@@ -2880,11 +2898,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  renderTitleRow: function renderTitleRow() {
-	    var _props2 = this.props;
-	    var title = _props2.title;
-	    var subTitle = _props2.subTitle;
-	    var href = _props2.href;
-	    var linkComponent = _props2.linkComponent;
+	    var _props2 = this.props,
+	        title = _props2.title,
+	        subTitle = _props2.subTitle,
+	        href = _props2.href,
+	        linkComponent = _props2.linkComponent;
 
 
 	    var itemTitle = title ? _react2.default.createElement(
@@ -2912,11 +2930,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    ) : titleChildren;
 	  },
 	  renderMain: function renderMain() {
-	    var _props3 = this.props;
-	    var media = _props3.media;
-	    var subTitle = _props3.subTitle;
-	    var desc = _props3.desc;
-	    var children = _props3.children;
+	    var _props3 = this.props,
+	        media = _props3.media,
+	        subTitle = _props3.subTitle,
+	        desc = _props3.desc,
+	        children = _props3.children;
 
 	    var titleRow = this.renderTitleRow();
 	    var notJustTitle = media || subTitle || desc || children;
@@ -2935,11 +2953,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    ) : titleRow;
 	  },
 	  wrapLink: function wrapLink(children) {
-	    var _props4 = this.props;
-	    var linkComponent = _props4.linkComponent;
-	    var linkProps = _props4.linkProps;
-	    var href = _props4.href;
-	    var target = _props4.target;
+	    var _props4 = this.props,
+	        linkComponent = _props4.linkComponent,
+	        linkProps = _props4.linkProps,
+	        href = _props4.href,
+	        target = _props4.target;
 
 
 	    return linkComponent ? _react2.default.createElement(linkComponent, linkProps, children) : _react2.default.createElement(
@@ -2962,18 +2980,17 @@ return /******/ (function(modules) { // webpackBootstrap
 	    ) : null;
 	  },
 	  render: function render() {
-	    var _props5 = this.props;
-	    var className = _props5.className;
-	    var role = _props5.role;
-	    var subTitle = _props5.subTitle;
-	    var href = _props5.href;
-	    var media = _props5.media;
-	    var children = _props5.children;
-	    var linkComponent = _props5.linkComponent;
-	    var linked = _props5.linked;
-	    var nested = _props5.nested;
-
-	    var props = _objectWithoutProperties(_props5, ['className', 'role', 'subTitle', 'href', 'media', 'children', 'linkComponent', 'linked', 'nested']);
+	    var _props5 = this.props,
+	        className = _props5.className,
+	        role = _props5.role,
+	        subTitle = _props5.subTitle,
+	        href = _props5.href,
+	        media = _props5.media,
+	        children = _props5.children,
+	        linkComponent = _props5.linkComponent,
+	        linked = _props5.linked,
+	        nested = _props5.nested,
+	        props = _objectWithoutProperties(_props5, ['className', 'role', 'subTitle', 'href', 'media', 'children', 'linkComponent', 'linked', 'nested']);
 
 	    delete props.classPrefix;
 	    delete props.title;
@@ -3015,7 +3032,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 28 */
+/* 29 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3062,11 +3079,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var Component = _props.component;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'component']);
+	    var _props = this.props,
+	        className = _props.className,
+	        Component = _props.component,
+	        props = _objectWithoutProperties(_props, ['className', 'component']);
 
 	    delete props.classPrefix;
 	    delete props.amStyle;
@@ -3088,7 +3105,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 29 */
+/* 30 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3098,7 +3115,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	});
 	exports.default = undefined;
 
-	var _ModalPortal = __webpack_require__(30);
+	var _ModalPortal = __webpack_require__(31);
 
 	var _ModalPortal2 = _interopRequireDefault(_ModalPortal);
 
@@ -3108,7 +3125,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 30 */
+/* 31 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3131,11 +3148,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _exenv = __webpack_require__(10);
 
-	var _bodyElement = __webpack_require__(31);
+	var _bodyElement = __webpack_require__(32);
 
 	var _bodyElement2 = _interopRequireDefault(_bodyElement);
 
-	var _Modal = __webpack_require__(32);
+	var _Modal = __webpack_require__(33);
 
 	var _Modal2 = _interopRequireDefault(_Modal);
 
@@ -3180,7 +3197,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 31 */
+/* 32 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3199,7 +3216,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 32 */
+/* 33 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3234,15 +3251,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _TransitionEvents2 = _interopRequireDefault(_TransitionEvents);
 
-	var _Button = __webpack_require__(22);
+	var _Button = __webpack_require__(23);
 
 	var _Button2 = _interopRequireDefault(_Button);
 
-	var _Icon = __webpack_require__(20);
+	var _Icon = __webpack_require__(21);
 
 	var _Icon2 = _interopRequireDefault(_Icon);
 
-	var _Loader = __webpack_require__(28);
+	var _Loader = __webpack_require__(29);
 
 	var _Loader2 = _interopRequireDefault(_Loader);
 
@@ -3336,9 +3353,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  // data === true: confirm -> confirmed
 	  // data === false: confirm -> canceled
 	  handleAction: function handleAction(data, e) {
-	    var _props = this.props;
-	    var role = _props.role;
-	    var onAction = _props.onAction;
+	    var _props = this.props,
+	        role = _props.role,
+	        onAction = _props.onAction;
 
 	    var willClose = true;
 
@@ -3404,6 +3421,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    delete props.confirmText;
 	    delete props.cancelText;
 	    delete props.closeBtn;
+	    delete props.closeViaBackdrop;
 
 	    return props;
 	  },
@@ -3436,12 +3454,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  renderPopup: function renderPopup(classSet) {
 	    classSet[this.props.classPrefix] = false;
 
-	    var _props2 = this.props;
-	    var className = _props2.className;
-	    var title = _props2.title;
-	    var children = _props2.children;
-
-	    var props = _objectWithoutProperties(_props2, ['className', 'title', 'children']);
+	    var _props2 = this.props,
+	        className = _props2.className,
+	        title = _props2.title,
+	        children = _props2.children,
+	        props = _objectWithoutProperties(_props2, ['className', 'title', 'children']);
 
 	    return _react2.default.createElement(
 	      'div',
@@ -3476,10 +3493,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    );
 	  },
 	  renderHeader: function renderHeader() {
-	    var _props3 = this.props;
-	    var title = _props3.title;
-	    var closeBtn = _props3.closeBtn;
-	    var role = _props3.role;
+	    var _props3 = this.props,
+	        title = _props3.title,
+	        closeBtn = _props3.closeBtn,
+	        role = _props3.role;
 
 	    var closeIcon = closeBtn && !role ? _react2.default.createElement(_Icon2.default, {
 	      name: 'close',
@@ -3511,10 +3528,10 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var buttons = void 0;
 	    var btnClass = this.prefixClass('btn');
-	    var _props4 = this.props;
-	    var role = _props4.role;
-	    var confirmText = _props4.confirmText;
-	    var cancelText = _props4.cancelText;
+	    var _props4 = this.props,
+	        role = _props4.role,
+	        confirmText = _props4.confirmText,
+	        cancelText = _props4.cancelText;
 
 	    (function () {
 
@@ -3602,9 +3619,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	  render: function render() {
 	    var _this2 = this;
 
-	    var _state = this.state;
-	    var closed = _state.closed;
-	    var isClosing = _state.isClosing;
+	    var _state = this.state,
+	        closed = _state.closed,
+	        isClosing = _state.isClosing;
 
 
 	    if (closed) {
@@ -3634,15 +3651,15 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    var classSet = this.getClassSet();
-	    var _props5 = this.props;
-	    var role = _props5.role;
-	    var className = _props5.className;
-	    var title = _props5.title;
-	    var children = _props5.children;
-	    var modalWidth = _props5.modalWidth;
-	    var modalHeight = _props5.modalHeight;
 
-	    var props = _objectWithoutProperties(_props5, ['role', 'className', 'title', 'children', 'modalWidth', 'modalHeight']);
+	    var _props5 = this.props,
+	        role = _props5.role,
+	        className = _props5.className,
+	        title = _props5.title,
+	        children = _props5.children,
+	        modalWidth = _props5.modalWidth,
+	        modalHeight = _props5.modalHeight,
+	        props = _objectWithoutProperties(_props5, ['role', 'className', 'title', 'children', 'modalWidth', 'modalHeight']);
 
 	    var modal = void 0;
 
@@ -3700,7 +3717,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 33 */
+/* 34 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3723,7 +3740,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
 
-	var _Icon = __webpack_require__(20);
+	var _Icon = __webpack_require__(21);
 
 	var _Icon2 = _interopRequireDefault(_Icon);
 
@@ -3755,9 +3772,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  renderTitle: function renderTitle() {
-	    var _props = this.props;
-	    var titleOnLeft = _props.titleOnLeft;
-	    var title = _props.title;
+	    var _props = this.props,
+	        titleOnLeft = _props.titleOnLeft,
+	        title = _props.title;
 
 	    var titlePosition = this.prefixClass(titleOnLeft ? 'left' : 'center');
 
@@ -3784,14 +3801,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  renderNavItem: function renderNavItem(item, index) {
 	    var _iconClassName;
 
-	    var Component = item.component;
-	    var title = item.title;
-	    var customIcon = item.customIcon;
-	    var icon = item.icon;
-	    var isClone = item.isClone;
-	    var className = item.className;
-
-	    var otherProps = _objectWithoutProperties(item, ['component', 'title', 'customIcon', 'icon', 'isClone', 'className']);
+	    var Component = item.component,
+	        title = item.title,
+	        customIcon = item.customIcon,
+	        icon = item.icon,
+	        isClone = item.isClone,
+	        className = item.className,
+	        otherProps = _objectWithoutProperties(item, ['component', 'title', 'customIcon', 'icon', 'isClone', 'className']);
 
 	    var children = [];
 	    var itemClassName = (0, _classnames2.default)(this.prefixClass('nav-item'), className);
@@ -3856,10 +3872,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props2 = this.props;
-	    var className = _props2.className;
 
-	    var props = _objectWithoutProperties(_props2, ['className']);
+	    var _props2 = this.props,
+	        className = _props2.className,
+	        props = _objectWithoutProperties(_props2, ['className']);
 
 	    delete props.title;
 	    delete props.classPrefix;
@@ -3885,7 +3901,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 34 */
+/* 35 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -3918,11 +3934,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _exenv = __webpack_require__(10);
 
-	var _bodyElement = __webpack_require__(31);
+	var _bodyElement = __webpack_require__(32);
 
 	var _bodyElement2 = _interopRequireDefault(_bodyElement);
 
-	var _Icon = __webpack_require__(20);
+	var _Icon = __webpack_require__(21);
 
 	var _Icon2 = _interopRequireDefault(_Icon);
 
@@ -3969,13 +3985,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var title = _props.title;
-	    var className = _props.className;
-	    var animated = _props.animated;
-	    var visible = _props.visible;
 
-	    var props = _objectWithoutProperties(_props, ['title', 'className', 'animated', 'visible']);
+	    var _props = this.props,
+	        title = _props.title,
+	        className = _props.className,
+	        animated = _props.animated,
+	        visible = _props.visible,
+	        props = _objectWithoutProperties(_props, ['title', 'className', 'animated', 'visible']);
 
 	    delete props.classPrefix;
 	    delete props.amStyle;
@@ -4063,7 +4079,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 35 */
+/* 36 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4123,14 +4139,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var placement = _props.placement;
-	    var animation = _props.animation;
-	    var className = _props.className;
-	    var children = _props.children;
-	    var isClosing = _props.isClosing;
 
-	    var props = _objectWithoutProperties(_props, ['placement', 'animation', 'className', 'children', 'isClosing']);
+	    var _props = this.props,
+	        placement = _props.placement,
+	        animation = _props.animation,
+	        className = _props.className,
+	        children = _props.children,
+	        isClosing = _props.isClosing,
+	        props = _objectWithoutProperties(_props, ['placement', 'animation', 'className', 'children', 'isClosing']);
 
 	    delete props.classPrefix;
 	    delete props.onDismiss;
@@ -4156,7 +4172,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 36 */
+/* 37 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4187,7 +4203,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _TransitionEvents2 = _interopRequireDefault(_TransitionEvents);
 
-	var _createChainedFunction = __webpack_require__(37);
+	var _createChainedFunction = __webpack_require__(38);
 
 	var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
@@ -4352,7 +4368,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 37 */
+/* 38 */
 /***/ function(module, exports) {
 
 	'use strict';
@@ -4402,7 +4418,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 38 */
+/* 39 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4464,18 +4480,18 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var children = _props.children;
-	    var positionLeft = _props.positionLeft;
-	    var positionTop = _props.positionTop;
-	    var angleLeft = _props.angleLeft;
-	    var angleTop = _props.angleTop;
-	    var anglePosition = _props.anglePosition;
-	    var isClosing = _props.isClosing;
-	    var placement = _props.placement;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'children', 'positionLeft', 'positionTop', 'angleLeft', 'angleTop', 'anglePosition', 'isClosing', 'placement']);
+	    var _props = this.props,
+	        className = _props.className,
+	        children = _props.children,
+	        positionLeft = _props.positionLeft,
+	        positionTop = _props.positionTop,
+	        angleLeft = _props.angleLeft,
+	        angleTop = _props.angleTop,
+	        anglePosition = _props.anglePosition,
+	        isClosing = _props.isClosing,
+	        placement = _props.placement,
+	        props = _objectWithoutProperties(_props, ['className', 'children', 'positionLeft', 'positionTop', 'angleLeft', 'angleTop', 'anglePosition', 'isClosing', 'placement']);
 
 	    var style = {
 	      left: positionLeft,
@@ -4518,7 +4534,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 39 */
+/* 40 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4545,11 +4561,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _OverlayMixin2 = _interopRequireDefault(_OverlayMixin);
 
-	var _domUtils = __webpack_require__(40);
+	var _domUtils = __webpack_require__(41);
 
 	var _domUtils2 = _interopRequireDefault(_domUtils);
 
-	var _createChainedFunction = __webpack_require__(37);
+	var _createChainedFunction = __webpack_require__(38);
 
 	var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
@@ -4646,8 +4662,8 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	    var popoverHeight = popoverNode.offsetHeight;
 	    var popoverWidth = popoverNode.offsetWidth;
-	    var targetHeight = targetOffset.height;
-	    var targetWidth = targetOffset.width;
+	    var targetHeight = targetOffset.height,
+	        targetWidth = targetOffset.width;
 
 	    var windowHeight = window.innerHeight;
 	    var windowWidth = window.innerWidth;
@@ -4751,14 +4767,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	    }
 
 	    var popover = this.props.popover;
-	    var _state = this.state;
-	    var isClosing = _state.isClosing;
-	    var positionLeft = _state.popoverLeft;
-	    var positionTop = _state.popoverTop;
-	    var anglePosition = _state.anglePosition;
-	    var angleLeft = _state.angleLeft;
-	    var angleTop = _state.angleTop;
-	    var placement = _state.placement;
+	    var _state = this.state,
+	        isClosing = _state.isClosing,
+	        positionLeft = _state.popoverLeft,
+	        positionTop = _state.popoverTop,
+	        anglePosition = _state.anglePosition,
+	        angleLeft = _state.angleLeft,
+	        angleTop = _state.angleTop,
+	        placement = _state.placement;
 
 
 	    if (isClosing) {
@@ -4808,7 +4824,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 40 */
+/* 41 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4891,7 +4907,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 41 */
+/* 42 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -4902,9 +4918,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
-	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; }; /**
-	                                                                                                                                                                                                                                                   * @see https://github.com/react-bootstrap/react-bootstrap/blob/master/src/Carousel.js
-	                                                                                                                                                                                                                                                   */
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; /**
+	                                                                                                                                                                                                                                                                               * @see https://github.com/react-bootstrap/react-bootstrap/blob/master/src/Carousel.js
+	                                                                                                                                                                                                                                                                               */
 
 	var _react = __webpack_require__(3);
 
@@ -4926,11 +4942,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _TransitionEvents2 = _interopRequireDefault(_TransitionEvents);
 
-	var _Icon = __webpack_require__(20);
+	var _Icon = __webpack_require__(21);
 
 	var _Icon2 = _interopRequireDefault(_Icon);
 
-	var _Touchable = __webpack_require__(42);
+	var _Touchable = __webpack_require__(43);
 
 	var _Touchable2 = _interopRequireDefault(_Touchable);
 
@@ -5200,11 +5216,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
-	    var children = _props.children;
 
-	    var props = _objectWithoutProperties(_props, ['className', 'children']);
+	    var _props = this.props,
+	        className = _props.className,
+	        children = _props.children,
+	        props = _objectWithoutProperties(_props, ['className', 'children']);
 
 	    delete props.classPrefix;
 	    delete props.onAction;
@@ -5295,12 +5311,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	    });
 	  },
 	  render: function render() {
-	    var _props2 = this.props;
-	    var className = _props2.className;
-	    var active = _props2.active;
-	    var animateIn = _props2.animateIn;
-	    var animateOut = _props2.animateOut;
-	    var direction = _props2.direction;
+	    var _props2 = this.props,
+	        className = _props2.className,
+	        active = _props2.active,
+	        animateIn = _props2.animateIn,
+	        animateOut = _props2.animateOut,
+	        direction = _props2.direction;
 
 	    var classSet = {
 	      active: active && !animateIn || animateOut,
@@ -5328,7 +5344,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 42 */
+/* 43 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5348,15 +5364,15 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _TouchableMixin2 = _interopRequireDefault(_TouchableMixin);
 
-	var _createChainedFunction = __webpack_require__(37);
+	var _createChainedFunction = __webpack_require__(38);
 
 	var _createChainedFunction2 = _interopRequireDefault(_createChainedFunction);
 
-	var _isTouchSupported = __webpack_require__(43);
+	var _isTouchSupported = __webpack_require__(44);
 
 	var _isTouchSupported2 = _interopRequireDefault(_isTouchSupported);
 
-	__webpack_require__(44);
+	__webpack_require__(45);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -5386,11 +5402,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var onTap = _props.onTap;
-
-	    var props = _objectWithoutProperties(_props, ['component', 'onTap']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        onTap = _props.onTap,
+	        props = _objectWithoutProperties(_props, ['component', 'onTap']);
 
 	    if (_isTouchSupported2.default) {
 	      _extends(props, this.getTouchHandlers());
@@ -5429,7 +5444,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	// TODO: 添加 touch active className
 
 /***/ },
-/* 43 */
+/* 44 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
@@ -5444,7 +5459,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 44 */
+/* 45 */
 /***/ function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {'use strict';
@@ -5474,7 +5489,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ },
-/* 45 */
+/* 46 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5526,14 +5541,14 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var name = _props.name;
-	    var className = _props.className;
-	    var onValueChange = _props.onValueChange;
-	    var value = _props.value;
-	    var disabled = _props.disabled;
 
-	    var props = _objectWithoutProperties(_props, ['name', 'className', 'onValueChange', 'value', 'disabled']);
+	    var _props = this.props,
+	        name = _props.name,
+	        className = _props.className,
+	        onValueChange = _props.onValueChange,
+	        value = _props.value,
+	        disabled = _props.disabled,
+	        props = _objectWithoutProperties(_props, ['name', 'className', 'onValueChange', 'value', 'disabled']);
 
 	    delete props.classPrefix;
 
@@ -5559,7 +5574,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 46 */
+/* 47 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5582,11 +5597,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
 
-	var _Icon = __webpack_require__(20);
+	var _Icon = __webpack_require__(21);
 
 	var _Icon2 = _interopRequireDefault(_Icon);
 
-	var _Badge = __webpack_require__(21);
+	var _Badge = __webpack_require__(22);
 
 	var _Badge2 = _interopRequireDefault(_Badge);
 
@@ -5616,13 +5631,13 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var Component = _props.component;
-	    var className = _props.className;
-	    var children = _props.children;
-	    var onAction = _props.onAction;
 
-	    var props = _objectWithoutProperties(_props, ['component', 'className', 'children', 'onAction']);
+	    var _props = this.props,
+	        Component = _props.component,
+	        className = _props.className,
+	        children = _props.children,
+	        onAction = _props.onAction,
+	        props = _objectWithoutProperties(_props, ['component', 'className', 'children', 'onAction']);
 
 	    delete props.classPrefix;
 	    delete props.amStyle;
@@ -5633,11 +5648,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	        className: (0, _classnames2.default)(classSet, className)
 	      }),
 	      _react2.default.Children.map(children, function (child, index) {
-	        var _child$props = child.props;
-	        var eventKey = _child$props.eventKey;
-	        var onClick = _child$props.onClick;
-
-	        var props = _objectWithoutProperties(_child$props, ['eventKey', 'onClick']);
+	        var _child$props = child.props,
+	            eventKey = _child$props.eventKey,
+	            onClick = _child$props.onClick,
+	            props = _objectWithoutProperties(_child$props, ['eventKey', 'onClick']);
 
 	        var clickHandler = onClick || onAction;
 	        var key = eventKey || index;
@@ -5684,9 +5698,9 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  renderBadge: function renderBadge() {
-	    var _props2 = this.props;
-	    var badge = _props2.badge;
-	    var badgeStyle = _props2.badgeStyle;
+	    var _props2 = this.props,
+	        badge = _props2.badge,
+	        badgeStyle = _props2.badgeStyle;
 
 
 	    return badge ? _react2.default.createElement(
@@ -5724,11 +5738,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet(true);
-	    var _props3 = this.props;
-	    var Component = _props3.component;
-	    var className = _props3.className;
 
-	    var props = _objectWithoutProperties(_props3, ['component', 'className']);
+	    var _props3 = this.props,
+	        Component = _props3.component,
+	        className = _props3.className,
+	        props = _objectWithoutProperties(_props3, ['component', 'className']);
 
 	    delete props.classPrefix;
 	    delete props.badge;
@@ -5756,7 +5770,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 47 */
+/* 48 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -5779,11 +5793,11 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _ClassNameMixin2 = _interopRequireDefault(_ClassNameMixin);
 
-	var _Button = __webpack_require__(22);
+	var _Button = __webpack_require__(23);
 
 	var _Button2 = _interopRequireDefault(_Button);
 
-	var _ButtonGroup = __webpack_require__(23);
+	var _ButtonGroup = __webpack_require__(24);
 
 	var _ButtonGroup2 = _interopRequireDefault(_ButtonGroup);
 
@@ -5870,11 +5884,11 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var activeKey = this.getActiveKey();
 
 	    var navs = _react2.default.Children.map(this.props.children, function (child, index) {
-	      var _child$props = child.props;
-	      var eventKey = _child$props.eventKey;
-	      var disabled = _child$props.disabled;
-	      var navSize = _child$props.navSize;
-	      var navStyle = _child$props.navStyle;
+	      var _child$props = child.props,
+	          eventKey = _child$props.eventKey,
+	          disabled = _child$props.disabled,
+	          navSize = _child$props.navSize,
+	          navStyle = _child$props.navStyle;
 
 	      var key = index;
 
@@ -5910,11 +5924,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  renderTabPanels: function renderTabPanels() {
 	    var activeKey = this.getActiveKey();
 	    var panels = _react2.default.Children.map(this.props.children, function (child, index) {
-	      var _child$props2 = child.props;
-	      var eventKey = _child$props2.eventKey;
-	      var children = _child$props2.children;
-
-	      var props = _objectWithoutProperties(_child$props2, ['eventKey', 'children']);
+	      var _child$props2 = child.props,
+	          eventKey = _child$props2.eventKey,
+	          children = _child$props2.children,
+	          props = _objectWithoutProperties(_child$props2, ['eventKey', 'children']);
 
 	      if (eventKey === undefined) {
 	        eventKey = index;
@@ -5941,10 +5954,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet();
-	    var _props = this.props;
-	    var className = _props.className;
 
-	    var props = _objectWithoutProperties(_props, ['className']);
+	    var _props = this.props,
+	        className = _props.className,
+	        props = _objectWithoutProperties(_props, ['className']);
 
 	    delete props.classPrefix;
 	    delete props.activeKey;
@@ -5986,12 +5999,12 @@ return /******/ (function(modules) { // webpackBootstrap
 	  },
 	  render: function render() {
 	    var classSet = this.getClassSet(true);
-	    var _props2 = this.props;
-	    var className = _props2.className;
-	    var children = _props2.children;
-	    var noPadded = _props2.noPadded;
 
-	    var props = _objectWithoutProperties(_props2, ['className', 'children', 'noPadded']);
+	    var _props2 = this.props,
+	        className = _props2.className,
+	        children = _props2.children,
+	        noPadded = _props2.noPadded,
+	        props = _objectWithoutProperties(_props2, ['className', 'children', 'noPadded']);
 
 	    var elementName = 'panel';
 
@@ -6024,7 +6037,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 48 */
+/* 49 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -6068,11 +6081,10 @@ return /******/ (function(modules) { // webpackBootstrap
 	    };
 	  },
 	  render: function render() {
-	    var _props = this.props;
-	    var component = _props.component;
-	    var className = _props.className;
-
-	    var props = _objectWithoutProperties(_props, ['component', 'className']);
+	    var _props = this.props,
+	        component = _props.component,
+	        className = _props.className,
+	        props = _objectWithoutProperties(_props, ['component', 'className']);
 
 	    delete props.classPrefix;
 
@@ -6086,7 +6098,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	module.exports = exports['default'];
 
 /***/ },
-/* 49 */
+/* 50 */
 /***/ function(module, exports) {
 
 	'use strict';
