@@ -8,4 +8,4 @@ node_modules
 !kitchen-sink/node_modules/
 # /dist
 /www
-/lib
+# /lib
