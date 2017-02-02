@@ -10,8 +10,8 @@ $icon-fonts: (
     style: normal,
     // font path
     src: unquote(
-        'url("#{$icon-fonts-path}ratchicons.woff") format("woff"),
-        url("#{$icon-fonts-path}ratchicons.ttf") format("truetype"),
+        'url("#{$icon-fonts-path}iconfont.woff") format("woff"),
+        url("#{$icon-fonts-path}iconfont.ttf") format("truetype"),
         url("#{$icon-fonts-path}iconfont.svg#iconfont") format("svg");'
     )
   ),
