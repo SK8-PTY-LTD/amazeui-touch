@@ -38,7 +38,7 @@ $black: #000 !default;
 $white: #fff !default;
 
 // Application Colors
-$global-primary: #0e90d2 !default;
+$global-primary: #E60012 !default;
 $global-secondary: lighten($global-primary, 15%) !default;
 $global-success: #5eb95e !default;
 $global-warning: #F37B1D !default;
@@ -57,7 +57,7 @@ $gray-lighter: lighten($black, 93.5%) !default; // #eee
 $light-alt: #e6e6e6 !default;
 $light-base: $gray-dark !default;
 
-$dark-alt: #393939 !default;
+$dark-alt: #36373c !default;
 $dark-base: $white !default;
 
 
