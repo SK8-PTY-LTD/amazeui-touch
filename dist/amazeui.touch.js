@@ -1,6 +1,6 @@
 /** Amaze UI Touch v1.0.0 | by Amaze UI Team
   * (c) 2017 AllMobilize, Inc., Licensed under MIT
-  * 2017-02-03T00:15:57+1100
+  * 2017-02-03T21:13:45+1100
   */
   (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')

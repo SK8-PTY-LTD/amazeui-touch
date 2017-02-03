@@ -1,6 +1,6 @@
 /** Amaze UI Touch v1.0.0 | by Amaze UI Team
   * (c) 2017 AllMobilize, Inc., Licensed under MIT
-  * 2017-02-03T00:15:57+1100
+  * 2017-02-03T21:13:45+1100
   */
   /* Amaze UI Touch Base Styles */
 [class*="animation-"] {
@@ -2038,7 +2038,7 @@ hr {
   font-family: iconfont;
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/iconfont.woff") format("woff"), url("../fonts/iconfont.ttf") format("truetype"), url("../fonts/iconfont.svg#iconfont") format("svg");;
+  src: url("../fonts/iconfont/iconfont.woff") format("woff"), url("../fonts/iconfont/iconfont.ttf") format("truetype"), url("../fonts/iconfont/iconfont.svg#iconfont") format("svg");;
 }
 
 .icon {
@@ -2620,7 +2620,7 @@ hr {
 }
 
 .icon-Calculator:before {
-  content: "\e812 ";
+  content: "\e812 ";
 }
 
 input[type="text"],
